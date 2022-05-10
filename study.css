@@ -1,0 +1,25 @@
+h1{
+    color: chocolate; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 58px; color: blueviolet;
+}
+
+.header-one{ font-size: medium;
+
+}
+
+#identity-selector{
+    font-style: italic;
+}
+
+#identity-selector-2{
+    color: brown;
+}
+
+.parent > p{
+    font-size:medium;
+}
+
+.parent span{color: red;}

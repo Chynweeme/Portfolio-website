@@ -1,0 +1,19 @@
+h3{
+    color: blueviolet;
+}
+
+h1{
+    color: cyan;
+}
+
+div > h4{
+color: orange;
+}
+
+.parent>div>h5>span{color: red;}
+
+.child span{color: blue;}
+
+.hola{
+    background-color: blueviolet;
+}
