@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="new sample website.css">
+  <link
+  rel="stylesheet"
+  href="../CSS/fontawesome-free-6.1.1-web/css/all.css"/>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"> Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item ps-3">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item ps-3 dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu ps-3" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ps-3">
+            <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item ps-3">
+            <a class="nav-link" href="#">Blog</a>
+       </li>
+       <li class="nav-item ps-3">
+        <a class="nav-link" href="#">Pages</a>
+       </li>
+        <li class="nav-item ps-3">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+        <li class="nav-item ps-3">
+            <a class="nav-link text-white btn bg-danger" href="#">Free estimate</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- FIRST SCREEN -->
+          <div class="carousel-item active">
+             <div class="w-100 hero" style="background-image:url(https://images.unsplash.com/photo-1624160719183-b3b9010a77c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RyYXdiZXJyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);">
+              <div class="opacity-75 bg-black h-100">
+                <!-- For large screen -->
+                <h1 class="display-6 text-white d-none d-lg-block" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 150px; font-size: 24px;">YOur one-stop fruit shop</h1>
+                <h1 class="display-1 text-white d-none d-lg-block" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 0px; font-size: 100px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-none d-lg-block" style="padding: 20px 40px; text-transform: uppercase; font-weight: 700; margin-left: 50px; margin-top: 10px; font-size: 14px;">Discover more</button>
+
+                <!-- For small screens -->
+                <h1 class="display-6 text-white d-block d-md-none" style="text-transform: uppercase; font-weight: 700; padding-left: 10px; padding-top: 120px; font-size: 16px;">Your one-stop <br> fruit shop</h1>
+                <h1 class="display-1 text-white d-block d-md-none" style="text-transform: uppercase; font-weight: 700; padding-left: 10px; padding-top: 10px; font-size: 48px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-block d-md-none" style="padding: 30px 60px; text-transform: uppercase; font-weight: 700; margin-left: 10px; margin-top: 20px; font-size: 16px;">Discover more</button>
+
+                <!-- For mid screens -->
+                <h1 class="display-6 text-white d-none d-md-block d-lg-none" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 150px; font-size: 16px;">Your one stop fruit shop</h1>
+                <h1 class="display-1 text-white d-none d-md-block d-lg-none" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 0px; font-size: 70px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-none d-md-block d-lg-none" style="padding: 20px 40px; text-transform: uppercase; font-weight: 700; margin-left: 50px; margin-top: 10px; font-size: 14px;">Discover more</button>
+              </div>
+            </div>
+          </div>
+          <!-- SECOND SCREEN -->
+          <div class="carousel-item">
+            <div class="w-100 hero" style="background-image: url(https://images.unsplash.com/photo-1625499940894-8796928bf9c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3JhcGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);">
+              <div class="opacity-75 bg-black h-100">
+                <!-- For large screen -->
+                <h1 class="display-6 text-white d-none d-lg-block" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 150px; font-size: 24px;">Your one-stop fruit shop</h1>
+                <h1 class="display-1 text-white d-none d-lg-block" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 0px; font-size: 100px;">Farm-fresh<br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-none d-lg-block" style="padding: 20px 40px; text-transform: uppercase; font-weight: 700; margin-left: 50px; margin-top: 10px; font-size: 14px;">Discover more</button>
+
+                <!-- For small screens -->
+                <h1 class="display-6 text-white d-block d-md-none" style="text-transform: uppercase; font-weight: 700; padding-left: 10px; padding-top: 120px; font-size: 16px;">Your one-stop <br> fruit store</h1>
+                <h1 class="display-1 text-white d-block d-md-none" style="text-transform: uppercase; font-weight: 700; padding-left: 10px; padding-top: 10px; font-size: 48px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-block d-md-none" style="padding: 30px 60px; text-transform: uppercase; font-weight: 700; margin-left: 10px; margin-top: 20px; font-size: 16px;">Discover more</button>
+
+                <!-- For mid screens -->
+                <h1 class="display-6 text-white d-none d-md-block d-lg-none" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 150px; font-size: 16px;">Your one-stop fruit shop</h1>
+                <h1 class="display-1 text-white d-none d-md-block d-lg-none" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 0px; font-size: 70px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-none d-md-block d-lg-none" style="padding: 20px 40px; text-transform: uppercase; font-weight: 700; margin-left: 50px; margin-top: 10px; font-size: 14px;">Discover more</button>
+              </div>
+            </div>
+          </div>
+          <!-- THIRD SCREEN -->
+          <div class="carousel-item">
+            <div class="w-100 hero" style="background-image: url(https://media.istockphoto.com/photos/fresh-ripe-mango-falling-in-the-air-picture-id1306014041?k=20&m=1306014041&s=612x612&w=0&h=bhVTLN6xckGrCEzzohriqklEAbk3LNSZjjGtAVzRB8Q=);">
+              <div class="opacity-75 bg-black h-100">
+                <!-- For large screen -->
+                <h1 class="display-6 text-white d-none d-lg-block" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 150px; font-size: 24px;">Your one-stop fruit shop</h1>
+                <h1 class="display-1 text-white d-none d-lg-block" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 0px; font-size: 100px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-none d-lg-block" style="padding: 20px 40px; text-transform: uppercase; font-weight: 700; margin-left: 50px; margin-top: 10px; font-size: 14px;">Discover more</button>
+
+                <!-- For small screens -->
+                <h1 class="display-6 text-white d-block d-md-none" style="text-transform: uppercase; font-weight: 700; padding-left: 10px; padding-top: 120px; font-size: 16px;">Your one-stop <br> fruit shop</h1>
+                <h1 class="display-1 text-white d-block d-md-none" style="text-transform: uppercase; font-weight: 700; padding-left: 10px; padding-top: 10px; font-size: 48px;">farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-block d-md-none" style="padding: 30px 60px; text-transform: uppercase; font-weight: 700; margin-left: 10px; margin-top: 20px; font-size: 16px;">Discover more</button>
+
+                <!-- For mid screens -->
+                <h1 class="display-6 text-white d-none d-md-block d-lg-none" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 150px; font-size: 16px;">Your one-stop fruit shop</h1>
+                <h1 class="display-1 text-white d-none d-md-block d-lg-none" style="text-transform: uppercase; font-weight: 700; padding-left: 50px; padding-top: 0px; font-size: 70px;"> Farm-fresh <br> fruit store</h1>
+                <button type="button" class="btn btn-danger d-none d-md-block d-lg-none" style="padding: 20px 40px; text-transform: uppercase; font-weight: 700; margin-left: 50px; margin-top: 10px; font-size: 14px;">Discover more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
