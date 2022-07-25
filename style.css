@@ -89,7 +89,7 @@ a:hover {
 .hero-img {
     width: 45%;
     height: 100vh;
-    background-image: url(../CSS/Pictures/whatsapp.jpeg);
+    background-image: url(./Pictures/whatsapp.jpeg);
     position: fixed;
 }
 
@@ -436,7 +436,7 @@ a:hover {
 .image-container-one {
     height: 200px;
     width: 200px;
-    background-image: url("../CSS/Pictures/Learn.png");
+    background-image: url("./Pictures/Learn.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -446,7 +446,7 @@ a:hover {
 .image-container-two {
     height: 200px;
     width: 200px;
-    background-image: url("../CSS/Pictures/Learn.png");
+    background-image: url("./Pictures/Learn.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -455,7 +455,7 @@ a:hover {
 .image-container-three {
     height: 200px;
     width: 200px;
-    background-image: url("../CSS/Pictures/hero.png");
+    background-image: url("./Pictures/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -464,26 +464,26 @@ a:hover {
 .image-container-four {
     height: 200px;
     width: 200px;
-    background-image: url("../CSS/Pictures/hero.png");
+    background-image: url("./Pictures/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .image-container-one:hover {
-    background-image: url("../CSS/Pictures/lauren.jpg");
+    background-image: url("./Pictures/lauren.jpg");
 }
 
 .image-container-two:hover {
-    background-image: url("../CSS/Pictures/lauren.jpg");
+    background-image: url("./Pictures/lauren.jpg");
 }
 
 .image-container-three:hover {
-    background-image: url("../CSS/Pictures/lauren.jpg");
+    background-image: url("./Pictures/lauren.jpg");
 }
 
 .image-container-four:hover {
-    background-image: url("../CSS/Pictures/lauren.jpg");
+    background-image: url("./Pictures/lauren.jpg");
 }
 
 .gallery-writeup-one {
@@ -705,7 +705,7 @@ label span {
     .image-container-one {
         height: 150px;
         width: 150px;
-        background-image: url("../CSS/Pictures/Learn.png");
+        background-image: url("./Pictures/Learn.png");
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
@@ -714,7 +714,7 @@ label span {
     .image-container-two {
         height: 150px;
         width: 150px;
-        background-image: url("../CSS/Pictures/Kimok.PNG");
+        background-image: url("./Pictures/Kimok.PNG");
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
@@ -723,7 +723,7 @@ label span {
     .image-container-three {
         height: 150px;
         width: 150px;
-        background-image: url("../CSS/Pictures/onboarding.png");
+        background-image: url("./Pictures/onboarding.png");
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
@@ -732,7 +732,7 @@ label span {
     .image-container-four {
         height: 150px;
         width: 150px;
-        background-image: url("../CSS/Pictures/kadankadan.png");
+        background-image: url("./Pictures/kadankadan.png");
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;
